@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "demo" {
-  bucket = "democodepipeline2019forp15"
+  bucket = "democodepipeline-awsjwalk"
   acl    = "public-read-write"
   force_destroy = "true"
 
